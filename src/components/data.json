@@ -1,0 +1,114 @@
+let projectdata = [
+  {
+    id: 1,
+    title: "project x",
+    buckets: [
+      {
+        bucket_name: "front end",
+        tasks: [
+          {
+            task_id: 11,
+            task_title: "create ui",
+            priority: "Urgent",
+            description: "This is an front end task",
+            assign_to: "Kathir",
+            status: "Not Started",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+          {
+            task_id: 12,
+            task_title: "create ux",
+            priority: "Important",
+            description: "This is user experiance",
+            assign_to: "Karan",
+            status: "In Progress",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+        ],
+      },
+      {
+        bucket_name: "react",
+        tasks: [
+          {
+            task_id: 13,
+            task_title: "create html",
+            priority: "Medium",
+            description: "This is html dom",
+            assign_to: "Kathir",
+            status: "Completed",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+          {
+            task_id: 14,
+            task_title: "create css",
+            priority: "Urgent",
+            description: "This is css login",
+            assign_to: "Labensty",
+            status: "Pending",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "project xy",
+    buckets: [
+      {
+        bucket_name: "node",
+        tasks: [
+          {
+            task_id: 21,
+            task_title: "create node",
+            priority: "low",
+            description: "this is node",
+            assign_to: "Naresh",
+            status: "Not Started",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+          {
+            task_id: 22,
+            task_title: "create express",
+            priority: "Important",
+            description: "This is express",
+            assign_to: "Kathir",
+            status: "Completed",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+        ],
+      },
+      {
+        bucket_name: "mongodb",
+        tasks: [
+          {
+            task_id: 23,
+            task_title: "create mongo",
+            priority: "Urgent",
+            description: "This is mongo",
+            assign_to: "Naresh",
+            status: "In Progress",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+          {
+            task_id: 24,
+            task_title: "create mysql",
+            priority: "Urgent",
+            description: "This is mysql",
+            assign_to: "Karan",
+            status: "Completed",
+            start_date: "10/11",
+            due_date: "12/11",
+          },
+        ],
+      },
+    ],
+  },
+];
