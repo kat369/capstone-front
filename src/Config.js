@@ -1,3 +1,3 @@
 export const env = {
-    api : "https://capstone-back-dz4j.vercel.app"
+    api : "https://capstone-back-in9b.vercel.app"
 }
